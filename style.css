@@ -1,3 +1,91 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    
+  }
+  
+li{
+    text-decoration: none;
+    display: inline;
+  }
+.orange-color{
+    color: orange;
+}
+.white-color{
+    color: white;
+}
+.gray-color{
+    color: gray;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    margin-bottom: 50px;
+}
+.flexible-container{
+    display: flex;
+    padding-bottom: 150px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    background-image: linear-gradient(45deg, orange, tomato);
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-weight: 400;
+    color: white;
+    font-size: 20px;
+}
+.second-section-banner{
+    background-image: url(images/shapes/7.png);
+}
+.recipies-alignment{
+    text-align: center;
+}
+.my-recipi{
+    width: 30%;
+    text-align: center;
+    margin: 25px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px gray;
+}
+.image-size{
+    width: 90%;
+    padding: 5%;
+}
+.follower-area{
+    display: inline-flex;
+    box-shadow: 7px 7px 30px gray;
+    width: 95%;
+    border-radius: 8px;
+    margin-left: 34px;
+}
+.footer-align{
+    text-align: center;
+    background-color: black;
+}
+#youtube-sub{
+    margin-left: 10%;
+}
+#instra-follow{
+    margin-left: 25%;
+}
+#fb-like{
+    margin-left: 30%;
 }
